@@ -129,7 +129,7 @@ button {
 #btn-container {
     position: absolute;
     display: flex;
-    top: 350px;
+    top: 380px;
     gap: 200px;
     justify-content: space-evenly;
     width: 500px;
