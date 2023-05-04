@@ -22,7 +22,7 @@ body {
     min-width: 500px;
     min-height: 500px;
     max-width: 800px;
-    max-height: 800px;
+    max-height: 100vh;
     width: 500px;
     height: 500px;
     position: absolute;
@@ -114,7 +114,7 @@ h2 {
     min-width: 500px;
     min-height: 500px;
     max-width: 800px;
-    max-height: 800px;
+    max-height: 100vh;
 }
 
 button {
@@ -161,3 +161,33 @@ button {
     color: #48020e;
 }
 
+@media only screen and (min-width: 768px) {
+    #main-container {
+        max-width: 500px;
+        max-height: 100vh;
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        margin: auto;
+    }
+
+    #second-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        max-width: 800px;
+        max-height: 100vh;
+    }
+
+    #btn-container {
+        position: absolute;
+        display: flex;
+        top: 380px;
+        gap: 200px;
+        justify-content: space-evenly;
+        width: 500px;
+        height: 150px;
+        margin: 0 auto;
+    }
+}
